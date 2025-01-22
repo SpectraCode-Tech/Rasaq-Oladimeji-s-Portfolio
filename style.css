@@ -325,7 +325,7 @@ footer{
   header h1{
     font-size: 30px;
     text-align: left;
-    margin: auto;
+    margin: 0;
   }
   nav{
     display: none;
@@ -388,7 +388,7 @@ footer{
   #Aboutme p{
    margin: auto;
    font-size: 1rem;
-   width: 350px;
+   width: 300px;
    padding-bottom: 40px;
   }
 
