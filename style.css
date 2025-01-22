@@ -359,13 +359,14 @@ footer{
     grid-template-columns: repeat(1, 1fr);
     padding: 30px;
     margin: auto;
+    
 
   }
   #MyPortfolio{
+    margin: auto;
     display: flex;
     flex-direction: column;
-    padding: 5px 20px;
-
+    justify-content: center;
   }
 
 
@@ -377,6 +378,8 @@ footer{
     flex-direction: column;
   }
   #Aboutme{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
   }
   #Aboutme p{
