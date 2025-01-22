@@ -306,12 +306,25 @@ footer{
 
 @media (min-width: 720px) {
   #Portfolio {
-    grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  #Aboutme p {
-    font-size: 1.2rem;
-    width: 500px;
+  .info {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .languages {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .language {
+    flex-direction: column;
   }
 }
 
@@ -320,8 +333,12 @@ footer{
     grid-template-columns: repeat(3, 1fr);
   }
 
-  #Aboutme p {
-    font-size: 1.4rem;
-    width: 700px;
+  .info {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .languages {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
+
