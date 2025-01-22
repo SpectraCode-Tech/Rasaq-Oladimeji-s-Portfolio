@@ -304,97 +304,24 @@ footer{
 }
 
 
-@media (max-width:2550px ) {
-  body{
-    overflow-x: hidden;
-  }
-  
-  .tab{
-    width: 250px;
-  }
-
-  .tab h2{
-    font-size: 20px;
-  }
-  .figure{
-    font-size: 24px;
-  }
-}
-
-@media (max-width: 720px ) {
-  header h1{
-    font-size: 30px;
-    text-align: left;
-    margin: 0;
-  }
-  nav{
-    display: none;
-  }
-  .info{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .tab{
-    margin-bottom: 2rem;
-  }
-  #Skills article{
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-  }
-  .language p{
-    font-size: 19px;
-    font-weight: bold;
-    color: transparent;
-    -webkit-text-stroke: 1px black
-  }
-  .languages{
-    display: grid;
+@media (min-width: 720px) {
+  #Portfolio {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  #Portfolio{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 30px;
-    margin: auto;
-    
-
+  #Aboutme p {
+    font-size: 1.2rem;
+    width: 500px;
   }
-  #MyPortfolio{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+}
+
+@media (min-width: 900px) {
+  #Portfolio {
+    grid-template-columns: repeat(3, 1fr);
   }
 
-
-  main{
-    margin-top: 50px;
-  }
-  #container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  #Aboutme{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  #Aboutme p{
-   margin: auto;
-   font-size: 1rem;
-   width: 300px;
-   padding-bottom: 40px;
-  }
-
-  #imgcont{
-  width: 90%;
-  height: 90%;
-  margin: auto;
+  #Aboutme p {
+    font-size: 1.4rem;
+    width: 700px;
   }
 }
