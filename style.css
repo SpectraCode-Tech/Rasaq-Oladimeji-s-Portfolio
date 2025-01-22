@@ -325,6 +325,7 @@ footer{
   header h1{
     font-size: 30px;
     text-align: left;
+    margin: auto;
   }
   nav{
     display: none;
@@ -377,6 +378,7 @@ footer{
   #container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   #Aboutme{
     display: flex;
@@ -384,15 +386,15 @@ footer{
     justify-content: center;
   }
   #Aboutme p{
-    margin: auto;
+   margin: auto;
    font-size: 1rem;
    width: 350px;
    padding-bottom: 40px;
   }
 
   #imgcont{
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   margin: auto;
   }
 }
