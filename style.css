@@ -426,7 +426,7 @@ footer {
   #Aboutme p {
     margin: auto;
     font-size: 1rem;
-    width: 100%; /* Ensure it doesn't exceed the viewport */
+    width: 90%; /* Ensure it doesn't exceed the viewport */
     max-width: 350px;
     padding-bottom: 40px;
   }
